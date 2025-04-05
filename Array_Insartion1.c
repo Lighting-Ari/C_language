@@ -3,7 +3,7 @@
 int main()
 {
 
-    // Taking data from the user and storing in a before all the element
+    // Taking data from the user and storing before all the element
 
     int a[50], size, i, num;
 
