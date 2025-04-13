@@ -40,7 +40,7 @@ int main()
             a[i + 1] = a[i]; // swaping the pos of the elements
         }
 
-        a[0] = num; // here we are storing the new value to the positioin define by the user
+        a[0] = num; // here we are storing the new value to the positioin is on the starting 
         size++;
 
         printf("\n Elements of the array: "); // printing the new array
