@@ -42,7 +42,7 @@ int main()
         }
 
         // if user want to add a new row to the table
-        printf("\n Want to a new row? Please enter 1\n");
+        printf("\n Want to a new row? Please enter 1 or enter any number to end:\n");
         scanf("%d", &new);
 
         if (new == 1)
@@ -64,11 +64,12 @@ int main()
                 }
                 printf("\n");
             }
+            printf("\n Program Complete\n");
         }
 
         else
         {
-            printf("\n Program Complete");
+            printf("\n Program Complete\n");
         }
     }
 }
