@@ -115,10 +115,12 @@ int main()
                     printf("\n Yes the value exist in %d position", i+1);
                 }
 
-                else
+                else if (array3[i]!=c_value)
                 {
                     printf("\n The value is not found in the araay3!");
                 }
+                
+                
                 
                 
             }
