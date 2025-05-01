@@ -10,7 +10,7 @@ int main()
     printf("\n PLease enter the size of the array: ");
     scanf("%d",&size);
 
-    if (size <0 || size >50)
+    if (size <=0 || size >50)
     {
         printf("\n Overflow condition!");
     }
